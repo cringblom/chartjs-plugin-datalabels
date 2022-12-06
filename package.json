@@ -22,7 +22,7 @@
     "types/*.d.ts"
   ],
   "scripts": {
-    "prepare": "npm run build"
+    "prepare": "npm run build",
     "bower": "node scripts/create-bower-json",
     "build": "rollup -c",
     "build:dev": "rollup -c --watch",
